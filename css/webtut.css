@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  /*    * gilt für alle Elemente   */
+}
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  font-size: 100%;
+}
+#search-header {
+  background-color: rgb(140,144,152);
+  height: 160px;
+
+}
+.flexbox	{
+	display: flex;
+	/*http://flexbox.malven.co/*/
+	/*flexbox+playground, http://the-echoplex.net/flexyboxes/ */
+	/*justify-content: space-around;*/
+	/*align-items: stretch ;*/
+	flex-direction: row;
+	}
+  #logo{
+    /*width: 10%;*/
+    height: 160px;
+    background: yellow;
+  }
+  #suche{
+    width: 90%;
+  }
+#suche h2{
+  text-align: center;
+}
+#suche #google{
+  text-align: right;
+}
+#center {
+  display: flex;
+  justify-content: space-around;
+	align-items: flex-start;
+	flex-direction: row;
+}
+sidebarleft  {
+  /*width: 10%;*/
+  background: yellow;
+}
+content {
+  background: blue;
+}
+sidebarright {
+  /*width: 10%;*/
+  background: yellow;
+}
+
+bottom {
+  display: flex;
+  justify-content: space-around;
+	align-items: flex-start;
+	flex-direction: row;
+  background-color: rgb(140,144,152);
+}
+
+/*wurde im html so definiert
+<div class="wrapper">, daher Prefix .  */
+/*.wrapper {
+  width: 80%;
+  margin: auto;
+}*/
